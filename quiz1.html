@@ -1,23 +1,7 @@
 <html> 
 <head> 
  <title>My Document</title> 
- <script type="text/javascript"> 
-
- function addButton() { 
-	var btn = document.createElement("BUTTON"); 
-	btn.innerHTML = "Change this document"; 
-	document.body.appendChild(btn); 
-	btn.setAttribute("id","change")
-	
-	document.getElementById("change").addEventListener("click", function() { 
-		var header = document.getElementById("title"); 
-		header.innerHTML = "CSIE@CGU"; 
- 
-		var para = document.getElementById("text"); 
-		para.innerHTML = "怎麼那麼棒！！.";  
-	}); 
- } 
- </script> 
+  <script src="quiz1.js"></script>
 </head> 
 <body> 
  <input type="button" value="Try it" onclick="addButton()"> 
